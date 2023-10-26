@@ -3204,7 +3204,7 @@ public class PdfContentByte {
         content.append(arr[3]).append(' ').append(arr[4]).append(' ').append(arr[5]).append(" cm").append_i(separator);
     }
 
-    void addAnnotation(PdfAnnotation annot) {
+    public void addAnnotation(PdfAnnotation annot) {
         writer.addAnnotation(annot);
     }
 

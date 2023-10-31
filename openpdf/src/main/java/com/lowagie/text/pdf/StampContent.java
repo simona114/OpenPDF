@@ -75,7 +75,7 @@ public class StampContent extends PdfContentByte {
         return pageResources;
     }
     
-    void addAnnotation(PdfAnnotation annot) {
+    public void addAnnotation(PdfAnnotation annot) {
         ((PdfStamperImp)writer).addAnnotation(annot, ps.pageN);
     }
 }
